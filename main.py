@@ -2,6 +2,7 @@ from fastapi import FastAPI, Form
 import joblib
 
 
+
 app= FastAPI()
 
 pipeline = joblib.load("modelos/pipelines/pipelines1.joblib")
